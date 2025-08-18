@@ -82,7 +82,7 @@ SAP Integration Suite, advanced event mesh
   - [Exercise 3.1 - Create new queue for RAP based events](exercises/ex3#exercise-31-create-new-queue-for-rap-based-events)
   - [Exercise 3.2 - Configure RAP based events](exercises/ex3#exercise-32-rap-based-events)
   - [Exercise 3.3 - Configure web application as subscriber](exercises/ex3#exercise-33-configure-web-application)
-  - [Exercise 3.4 - Publish RAP based event again](exercises/ex3#exercise-34-publish-rap-based-event-to-again)
+  - [Exercise 3.4 - Publish RAP based event again](exercises/ex3#exercise-34-publish-rap-based-event-again)
 
 -
 
