@@ -1,6 +1,5 @@
 # Event-Driven Architecture with SAP Integration Suite, Advanced Event Mesh
 
-
 ## Description
 
 An event-driven architecture is a software architecture using events as the core means for interaction between its software components. One of the main components of an EDA are Event Brokers. SAP's flagship event broker is SAP Integration Suite, advanced event mesh.
@@ -60,53 +59,52 @@ Please make sure to use incognito / private mode
 
 Use this [Tenant](https://eu10.console.pubsub.em.services.cloud.sap/login?tenant-id=47ad3afc-3d8a-4dca-85bb-6cce8ebae9e3) to do the exercises.
 
-
 ## Exercises
-
-
 
 SAP Integration Suite, advanced event mesh
 
 - [Exercise 1 - Explore SAP Integration Suite, advanced event mesh](exercises/ex1/)
 
-    - [Exercise 1.1 - Log into Advanced Event Mesh and Explore it](exercises/ex1#exercise-11---log-into-advanced-event-mesh-and-explore-it)
-    - [Exercise 1.2 - Create a Queue in Advanced Event Mesh ](exercises/ex1#exercise-12---create-a-queue-in-advanced-event-mesh)
-    - [Exercise 1.3 - Create a Subscription in Advanced Event Mesh](exercises/ex1#exercise-13---create-a-queue-subscription-in-advanced-event-mesh)
-    - [Exercise 1.4 - Send an event from the Try Me! Tool to your Topic](exercises/ex1#exercise-14---send-an-event-from-the-try-me-tool-to-your-topic)
+  - [Exercise 1.1 - Log into Advanced Event Mesh and Explore it](exercises/ex1#exercise-11---log-into-advanced-event-mesh-and-explore-it)
+  - [Exercise 1.2 - Create a Queue in Advanced Event Mesh ](exercises/ex1#exercise-12---create-a-queue-in-advanced-event-mesh)
+  - [Exercise 1.3 - Create a Subscription in Advanced Event Mesh](exercises/ex1#exercise-13---create-a-queue-subscription-in-advanced-event-mesh)
+  - [Exercise 1.4 - Send an event from the Try Me! Tool to your Topic](exercises/ex1#exercise-14---send-an-event-from-the-try-me-tool-to-your-topic)
 
 - [Exercise 2 - Use Cloud Integration for event mediation](exercises/ex2/)
 
-    - [Exercise 2.1 - Setup REST Endpoint](exercises/ex2#21-setup-rest-endpoint)
-    - [Exercise 2.2 - Create Integration Package](exercises/ex2#22-create-integration-package)
-    - [Exercise 2.2 - Copy & Configure Integration Flow](exercises/ex2#23-copy--configure-integration-flow)
-    - [Exercise 2.2 - Monitor Messages](exercises/ex2#24-monitor-messages)
+  - [Exercise 2.1 - Setup REST Endpoint](exercises/ex2#21-setup-rest-endpoint)
+  - [Exercise 2.2 - Create Integration Package](exercises/ex2#22-create-integration-package)
+  - [Exercise 2.2 - Copy & Configure Integration Flow](exercises/ex2#23-copy--configure-integration-flow)
+  - [Exercise 2.2 - Monitor Messages](exercises/ex2#24-monitor-messages)
 
-- [Exercise 3 -  Incremental growth: Add web application as additional consumer](exercises/ex3/)
+- [Exercise 3 - Incremental growth: RAP based S4 events -> AEM -> web application as additional consumer](exercises/ex3/)
 
-    - [Exercise 3.1 - Create new queue for additional application](exercises/ex3#exercise-31-create-new-queue-for-additional-application)
-    - [Exercise 3.2 - Configure web application](exercises/ex3#exercise-32-configure-web-application)
-    - [Exercise 3.3 - Publish event to topic](exercises/ex3#exercise-33-publish-event-to-topic)
+  - [Exercise 3.1 - Create new queue for RAP based events](exercises/ex3#exercise-31-create-new-queue-for-rap-based-events)
+  - [Exercise 3.2 - Configure RAP based events](exercises/ex3#exercise-32-rap-based-events)
+  - [Exercise 3.3 - Configure web application as subscriber](exercises/ex3#exercise-33-configure-web-application)
+  - [Exercise 3.4 - Publish RAP based event again](exercises/ex3#exercise-34-publish-rap-based-event-to-again)
 
+-
 
-
- ## Background Material
+## Background Material
 
 A lot of material to get up to speed with SAP Integration Suite, advanced event mesh is available.
 
 - Blogs
 
-    - [SAPs Event-Driven Ecosystem](https://blogs.sap.com/2022/09/01/saps-event-driven-ecosystem-revisited/)
-    - [Advanced Event Mesh](https://blogs.sap.com/2022/10/28/turn-your-erp-into-a-team-player-introducing-sap-integration-suite-advanced-event-mesh/ )
-    - [Advanced Event Mesh Details](https://blogs.sap.com/2023/10/26/sap-advanced-event-mesh-create-your-first-event-broker/)
+  - [SAPs Event-Driven Ecosystem](https://blogs.sap.com/2022/09/01/saps-event-driven-ecosystem-revisited/)
+  - [Advanced Event Mesh](https://blogs.sap.com/2022/10/28/turn-your-erp-into-a-team-player-introducing-sap-integration-suite-advanced-event-mesh/)
+  - [Advanced Event Mesh Details](https://blogs.sap.com/2023/10/26/sap-advanced-event-mesh-create-your-first-event-broker/)
 
 - Videos
 
-    - [Discover Event-driven Integrations](https://www.youtube.com/watch?v=r9lyC_2ss2U)
-    - [SAP on Azure](https://www.youtube.com/watch?v=NNrzXbX3mk0)
+  - [Discover Event-driven Integrations](https://www.youtube.com/watch?v=r9lyC_2ss2U)
+  - [SAP on Azure](https://www.youtube.com/watch?v=NNrzXbX3mk0)
 
 - Documentation
 
-    - [Help](https://help.pubsub.em.services.cloud.sap/Cloud/cloud-lp.htm)
+  - [Help](https://help.pubsub.em.services.cloud.sap/Cloud/cloud-lp.htm)
 
 ## License
+
 Copyright (c) 2024 SAP SE or an SAP affiliate company. All rights reserved. This project is licensed under the Apache Software License, version 2.0 except as noted otherwise in the [LICENSE](LICENSES/Apache-2.0.txt) file.
