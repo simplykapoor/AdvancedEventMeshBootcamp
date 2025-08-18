@@ -202,7 +202,7 @@ In this exercise you will conifugre the Business Partner Web Application. On thi
 
 ## Exercise 3.4: Publish RAP based event again
 
-1. To publish an S4 RAP based events - Repeat Excercise 3.2.3 Steps 1 - 10
+1. To publish an S4 RAP based events - Repeat [Excercise 3.2.3 Steps 1 - 11](exercises/ex3#trigger-the-rap-event-by-changing-an-existing-partner)
 2. You should see your entry in the application. Be aware that if you send a business partner with the same ID, an update of the existing entry will be triggered instead of creating a new entry.
    ![Pic](./images/ex3-8.png)
 3. As system published the event to a topic, all queues subscribed have received the event. This means also the integration flow in exercise 2 is executed again and you should see an corresponding entry in the webhook site.
