@@ -40,7 +40,7 @@ SAP Integration Suite, advanced event mesh features touched, some just shortly, 
 
 ## Requirements
 
-- There are no prior requirements to this exercise. You can perform this even if you do not have any experience with integration platform from SAP. However, you will be able to derive increased value from this session if you have some knowledge on the following:
+There are no prior requirements to this exercise. You can perform this even if you do not have any experience with integration platform from SAP. However, you will be able to derive increased value from this session if you have some knowledge on the following:
   - What 'SAP Integration Suite' is all about and how it helps with enterprise-wide integration needs.
   - Basic understanding of 'SAP Integration Suite, advanced event mesh'.
   - Understanding the basics of event-driven architectures, namely events, queues, topics, event subscriptions.
