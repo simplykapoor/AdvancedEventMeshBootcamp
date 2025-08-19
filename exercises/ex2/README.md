@@ -1,5 +1,5 @@
 ## Exercise 2 - Learn Publish-Subscribe pattern using S/4 HANA, AEM and Cloud Integration
-In this exercise, we will explore an end-to-end publish-subscribe pattern. We will publish a Business Partner Change event from S/4Hana to an AEM topic using RAP-based events. The event will then be sent from the topic to two queues, which act as topic subscribers. Finally, two independent subscribers will receive the event by listening to their respective queues.
+In this exercise, we will learn an end-to-end publish-subscribe pattern using S/4 HANA, AEM and Cloud Integration. We will publish a Business Partner Change event from S/4Hana to an AEM topic using RAP-based events. The event will then be sent from the topic to two queues, which act as topic subscribers. Finally, two independent subscribers will receive the event by listening to their respective queues.
 
 ## Exercise 2.1 - Create new Queue in Advanced Event Mesh for second subscriber
 After completing these steps you will have created a queue in Advanced Event Mesh.
@@ -39,7 +39,9 @@ After completing these steps you will have created a queue in Advanced Event Mes
 
 	![](./images/ex3-3-6.png)
 
+10. Simlarily subscribe to the same topic **"s4/t41/400/ce/groupXX/BusinessPartner/Changed/v1"** in the first queue **"User_XXX"** (replace **XXX** with your assigned user number) that you created in Exercise 1.2
 
+	![](./images/ex3-3-7.png)
     
 ## Exercise 2.1 - Setup REST Endpoint
 
