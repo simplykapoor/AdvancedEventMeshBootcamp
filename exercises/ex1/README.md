@@ -1,6 +1,6 @@
 ## Exercise 1.1 - Log into Advanced Event Mesh and explore it
 
-After completing these steps you will have familiarized yourself with AEM.
+After completing these steps you will familiarize yourself with AEM.
 
 1. Log into Advanced Event Mesh
 
