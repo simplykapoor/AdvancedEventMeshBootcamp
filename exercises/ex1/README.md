@@ -86,13 +86,11 @@ After completing these steps you will have created a queue in Advanced Event Mes
 
 	![Pic 9](./images/ex1-9.png)  
 
-3. Enter following topic: **"userXXX/businesspartner/change"**  (replace **XXX** with your assigned user number).
-
-4. Click on **"Create"**.
+3. Enter following topic: **"userXXX/businesspartner/change"**  (replace **XXX** with your assigned user number). Click on **"Create"**.
 
 	![Pic 11](./images/ex1-10.png)  
 
-5. Check on whether your queue subscription got created.
+4. Check on whether your queue subscription got created.
 
 	![Pic 12](./images/ex1-11.png)  
 
