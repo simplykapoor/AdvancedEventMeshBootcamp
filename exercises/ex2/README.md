@@ -1,74 +1,90 @@
-## Exercise 2 Use Cloud Integration capablity for event mediation
-In this exercise, an Integration Flow is added as a consumer via the Advanced Event Mesh adapter using the Solace Messaging Format (SMF). Integration flows can be used to mediate events, for example, to perform message transformation or protocol conversion steps.
+## Exercise 2 - Use Cloud Integration capablity for event mediation
+In this exercise, an Integration Flow is added as a consumer via the Advanced Event Mesh adapter using the Solace Messaging Format (SMF). Integration flows can be used to mediate events, such as mapping of event structures and data, enriching event payloads (for example, catching a narrow business notification event and calling back to the event publisher to enrich with more data)
 
-## 2.1 Setup REST Endpoint
+## Exercise 2.1 - Setup REST Endpoint
 
 Before we start building our integration flow, we will "provision" a simple HTTP endpoint where we will send the message.
 
-### webhook.site (HTTP endpoint)
+1. ### Webhook.site (HTTP endpoint)
 
-For simplicity purposes, our REST consumer will be a simple HTTP endpoint that will receive the messages from the queue. We will use a tool called [Webhook.site](https://webhook.site/) to create a temporary endpoint that will receive the messages. When you navigate to the website, you will be presented with a unique URL that you can use to receive the messages. **Take note of the unique URL** as we will use it to configure the REST consumer.
+    For simplicity purposes, our REST consumer will be a simple HTTP endpoint that will receive the messages from the queue. We will use a tool called [Webhook.site](https://webhook.site/) to create a temporary endpoint that will receive the messages. When you navigate to the website, you will be presented with a unique URL that you can use to receive the messages. **Take note of the unique URL** as we will use it to configure the REST consumer.
+    
+    <p align = "center">
+        <img alt="webhook.site example" src="images/webhook-site-example.png" width="100%"/><br/>
+        <i>webhook.site example</i>
+    </p>
 
-<p align = "center">
-    <img alt="webhook.site example" src="images/webhook-site-example.png" width="100%"/><br/>
-    <i>webhook.site example</i>
-</p>
+## Exercise 2.2 - Create Integration Package in Cloud Integration capability of SAP Integration Suite
 
+1. Open the SAP Integration Suite landing page via this [link](https://cpisuite-europe-03.integrationsuite.cfapps.eu20-001.hana.ondemand.com/shell/home).
 
+   ![](./images/ex2-1.png)
 
-## 2.2 Create Integration Package
+2. Navigate to **Design > Integrations and APIs**, and select **Create**.
 
-1. Open the to the SAP Integration Suite landing page via this [link](https://cpisuite-europe-03.integrationsuite.cfapps.eu20-001.hana.ondemand.com/shell/home).
-  <br>![](./images/ex2-1.png)
-
-2. Navigate to  <b>Design > Integrations</b>, and select  <b>Create</b>.
-  <br>![](./images/ex2-2.png)
+   ![](./images/ex2-2.png)
    
-3. Fill in following **Name:** User**XXX** where <b>XXX</b> is your user number and a short <b>description</b> eg. "Integration Package for event mediation User **XXX**". Then click <b>Save</b>.
-  <br>![](./images/ex2-3.png)
+3. Fill the following:
+   <br>**Name:** "User**XXX**" where **XXX** is your assigned user number
+   <br>**Short Description:** "Integration Package for event mediation from User **XXX**".
 
-## 2.3 Copy & Configure Integration Flow
+   <br>click **Save**.
 
-4. Navigate to  <b>Design > Integrations</b>.
+   ![](./images/ex2-3.png)
 
-5. Seach for the package "Advanced Event Mesh Exercise - Solution" and select it.
-  <br>![](./images/ex2-4.png)
+## Exercise 2.3 - Copy & Configure Integration Flow
 
-6. Navigate to tab **"Artifacts"** select the **"Action"-button** and press **"Copy"**
-<br>![](./images/ex2-5.png)
+1. Navigate to **Design > Integrations and APIs**.
 
-7. Change the name to AEM_to_REST_EventMediation_User**XXX** and replace **XXX** with your user id. Press the **"Select"** button to select the package.
-<br>![](./images/ex2-6.png)
+2. Seach for the package "**Advanced Event Mesh Exercise - Solution**" and select it.
 
-8. Select the package you created in exercise 2.2.
-<br>![](./images/ex2-7.png)
+   ![](./images/ex2-4.png)
 
-9. Press **"Copy"**.
-<br>![](./images/ex2-8.png)
+3. Navigate to the **"Artifacts"** tab select the **"Action"** button and click **"Copy"**
 
-10. Press **Navigate** to go directly to the copied package.
+   ![](./images/ex2-5.png)
+
+4. Change the name to AEM_to_REST_EventMediation_User**XXX** and replace **XXX** with your assigned user number. Press the **"Select"** button to select the package.
+
+   ![](./images/ex2-6.png)
+
+5. Select the package you created in Exercise 2.2.
+
+   ![](./images/ex2-7.png)
+
+6. Press **"Copy"** button
+
+   ![](./images/ex2-8.png)
+
+7. Press **Navigate** to go directly to the copied package.
 <br>![](./images/ex2-9.png)
 
-11. Click on your integration flow to open it.
-<br>![](./images/ex2-10.png)
+8. Click on the copied integration flow in your package to open it.
+   ![](./images/ex2-10.png)
 
-12. The flow will subscribe to your queue and performs a simple transformation from JSON to XML format. The result is sent to the HTTP reciever you created in exercise 2.1. Press **Configure** to set the required properties.
-<br>![](./images/ex2-11.png)
+9. The integration flow will subscribe to your queue and performs a call back to the event publisher to enrich with more data. The result is sent to the HTTP reciever endpoint that you created in Exercise 2.1. Press **Configure** to set the required properties.
 
-13. Provide the name of your queue created in exercise 1: User_**XXX** (replace **XXX** with your user number).
-<br>![](./images/ex2-12.png)
+    ![](./images/ex2-11.png)
 
-14. Switch to tab **"Receiver"** and provide your unique webhook URL you created in exercise 2.1. Press **"Save"**
-<br>![](./images/ex2-13.png)
+10. Provide the name of your queue created in Exercise 1: User_**XXX** (replace **XXX** with your assigned user number).
 
-15. **Close** the warning message.
-<br>![](./images/ex2-14.png)
+    ![](./images/ex2-12.png)
 
-16. Press **"Deploy"** to deploy your integration flow.
-<br>![](./images/ex2-15.png)
+11. Switch to the **"Receiver"** tab and provide your unique webhook URL you created in Exercise 2.1 and click on **"Save"** button.
 
-17. Select Runtime Profile **"Cloud Integration"** and press **"Yes"**. Press **"Ok**" to close the dialog.
-<br>![](./images/ex2-16.png)
+    ![](./images/ex2-13.png)
+
+12. **Close** the warning message.
+
+    ![](./images/ex2-14.png)
+
+13. Press **"Deploy"** to deploy your integration flow.
+
+    ![](./images/ex2-15.png)
+
+14. Select Runtime Profile **"Cloud Integration"** and press **"Yes"**. Press **"Ok**" to close the dialog.
+
+    ![](./images/ex2-16.png)
 
 
 ## 2.4. Monitor Messages
