@@ -1,6 +1,39 @@
-## Exercise 2 - Use Cloud Integration capablity for event mediation
-In this exercise, an Integration Flow is added as a consumer via the Advanced Event Mesh adapter using the Solace Messaging Format (SMF). Integration flows can be used to mediate events, such as mapping of event structures and data, enriching event payloads (for example, catching a narrow business notification event and calling back to the event publisher to enrich with more data)
+## Exercise 2 - Learn Publish-Subscribe pattern using S/4 HANA, AEM and Cloud Integration
+In this exercise, we will explore an end-to-end publish-subscribe pattern. We will publish a Business Partner Change event from S/4Hana to an AEM topic using RAP-based events. The event will then be sent from the topic to two queues, which act as topic subscribers. Finally, two independent subscribers will receive the event by listening to their respective queues.
 
+## Exercise 2.1 - Create new queue in Advanced Event Mesh for second subscriber
+After completing these steps you will have created a queue in Advanced Event Mesh.
+
+1. Go back to the original tab in your browser of AEM and click on **"Cluster Manager"** on the left.
+2. In the All Services screen click on the **"Broker Asia"** tile.
+
+	**HINT:** If you cannot see the tiles, uncheck the "**Only show my services**" box.
+
+	![](./images/ex3-1.png)
+
+3. Switch to **"Manage"** tab and click on the **"Queues"** button. A new browser tab/window will open.
+
+   ![Pic](./images/ex3-2.png)
+
+5. Click on Queue to create new queue
+
+   ![](assets/20250818_232239_image.png)
+6. Give the Name in the Format
+   RAP*AEM*## (where ## is Your Group Number)
+
+   ![](assets/20250818_232519_image.png)
+7. Click on "Create" ->Then click on "Apply"
+
+   ![](assets/20250818_232643_image.png)
+8. Click on the Queue that is created - Select the Subscription Tab
+
+   ![](assets/20250818_232722_image.png)
+9. Enter the Topic name with the below format(Replace ## with Group name)
+   s4/t41/400/ce/group##/BusinessPartner/Changed/v1
+
+   ![](assets/20250818_232811_image.png)
+10. Click on "Create"
+    
 ## Exercise 2.1 - Setup REST Endpoint
 
 Before we start building our integration flow, we will "provision" a simple HTTP endpoint where we will send the message.
