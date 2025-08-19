@@ -15,7 +15,7 @@ After completing these steps you will have created a queue in Advanced Event Mes
 
    ![Pic](./images/ex3-2.png)
 
-5. Click on Queue to create new queue
+4. Click the **"+ Queue"** button on the top right.
 
    ![](assets/20250818_232239_image.png)
 6. Give the Name in the Format
