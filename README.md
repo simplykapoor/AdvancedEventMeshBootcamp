@@ -70,8 +70,6 @@ SAP Integration Suite, advanced event mesh
   - [Exercise 3.3 - Configure web application as subscriber](exercises/ex3#exercise-33-configure-web-application)
   - [Exercise 3.4 - Publish RAP based event again](exercises/ex3#exercise-34-publish-rap-based-event-again)
 
--
-
 ## Further Read
 
 A lot of material is available to get up to speed with 'SAP Integration Suite, advanced event mesh' is available.
