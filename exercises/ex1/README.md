@@ -86,7 +86,7 @@ After completing these steps you will have created a queue in Advanced Event Mes
 
 	![Pic 9](./images/ex1-9.png)  
 
-3. Enter following topic: **userXXX/businesspartner/change**  (replace **XXX** with your assigned user number).
+3. Enter following topic: **"userXXX/businesspartner/change"**  (replace **XXX** with your assigned user number).
 
 4. Click on **"Create"**.
 
