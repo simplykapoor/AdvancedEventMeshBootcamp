@@ -13,14 +13,16 @@ After completing these steps you will have created a queue in Advanced Event Mes
 
 3. Switch to **"Manage"** tab and click on the **"Queues"** button. A new browser tab/window will open.
 
-   ![Pic](./images/ex3-2.png)
+   ![](./images/ex3-2.png)
 
 4. Click the **"+ Queue"** button on the top right.
 
-   ![](assets/20250818_232239_image.png)
-6. Give the Name in the Format
-   RAP*AEM*## (where ## is Your Group Number)
+   ![](./images/ex3-3-2.png)
+   
+5. Give the Name in the Format
+   RAP*AEM*## (where ## is Your Group Number)<img width="755" height="320" alt="image" src="https://github.com/user-attachments/assets/da37e7e3-fb5f-4878-ae61-9dd0fa289560" />
 
+	
    ![](assets/20250818_232519_image.png)
 7. Click on "Create" ->Then click on "Apply"
 
