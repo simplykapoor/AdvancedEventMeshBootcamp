@@ -36,40 +36,20 @@ The publish-subscribe pattern decouples the sending and receiving applications. 
 
 ## Exercise 3.2: RAP based events
 
-1. ###### Details of WTS landscape and login to T41
+1. Log into **WTS**
 
-
-   1. ** WTS/Terminal access**
-      URL : https://class.learning.sap.com/my.policy
-      system : ** SY-S42023FPS2BGACC-WS001**
-      user : WS-001 till WS-030
-      password: Shared by Moderator\*
-   2. T41 System Login Information for SAPGUI
-
-      System : T41
-      Client : 400
-      User. : S4F17-01till S4F17-30
-      Password : Welcome1
-2. ###### Set up RAP based events :
-
-
-   1. **Access WTS** - Open the URL( from 1.1 above) for the WTS / Terminal access
-      In case you get following screen: take attention to the section marked in red
-
-      ![](assets/20250818_234004_image.png)
-   2. When you get to the logon screen, please fill the required data (from 1.1 above)
+   Link: https://class.learning.sap.com/my.policy
+      <br>System : **SY-S42023FPS2BGACC-WS001**
+      <br>Username : **WS-XXX** where **XXX** is your assigned user number
+      <br>Password: provided by the moderator
 
       ![](assets/20250818_234051_image.png)
 
-      Example for Group 01: It Should be **WS-001**
+2. After successfull login
 
-      system:   SY-S42023FPS2BGACC-WS001
-      User:  \*\*WS-0##
-      Password: SIXTrainingWS25!
-   3. After successfull login
-
-      ![](assets/20250818_235320_image.png)
-   4. Search for SAP HANA studio and open the version 2.3.78.
+   ![](assets/20250818_235320_image.png)
+   
+3. Search for SAP HANA studio and open the version 2.3.78.
 
       ![](assets/20250818_235357_image.png)
    5. Verify if workspace name is “AEM##” where ## is your group number. Click on Launch.
@@ -105,7 +85,7 @@ The publish-subscribe pattern decouples the sending and receiving applications. 
 
    12. Click on Save and Activate the object.
        Use the activation button ![](assets/20250819_001428_image.png) from the tool bar
-3. ###### **Trigger the RAP event by changing an existing partner**
+4. ###### **Trigger the RAP event by changing an existing partner**
 
 
    1. **Access T41** : Open SAP GUI from WTS link for WTS: https://class.learning.sap.com/my.policy
@@ -169,7 +149,7 @@ The publish-subscribe pattern decouples the sending and receiving applications. 
    15. You can see all messages including the payloads
 
        ![](assets/20250819_002635_image.png)
-4. ###### Check the event which has reached Advanced Event Mesh
+5. ###### Check the event which has reached Advanced Event Mesh
 
 
    1. Go back to tab in your browser of AEM and click on **"Cluster Manager"** on the left.
