@@ -91,8 +91,8 @@ The publish-subscribe pattern decouples the sending and receiving applications. 
 
     ![](assets/20250819_001130_image.png)
 
-12. Click on Save and Activate the object.
-    Use the activation button ![](assets/20250819_001428_image.png) from the tool bar
+12. Click on **Save** and **Activate** the object.
+    <br>Use the activation button ![](assets/20250819_001428_image.png) from the tool bar
 
 5. ###### **Trigger the RAP event by changing an existing partner**
 
