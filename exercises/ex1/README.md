@@ -67,36 +67,32 @@ After completing these steps you will have created a queue in Advanced Event Mes
 
 	![Pic 5](./images/ex1-5.png)        
 
-5. In the pop up enter the queue name: **User_XXX** (replace **XXX** with your assigned user number).
-
-6. Click **"Create"**
+5. In the pop up enter the queue name: **User_XXX** (replace **XXX** with your assigned user number) and click **"Create"**
 
 	![Pic 6](./images/ex1-6.png)      
 
-7. On the next screen keep all the default settings and click **"Apply"**
+6. On the next screen keep all the default settings and click **"Apply"**
 
 	![Pic 7](./images/ex1-7.png)       
 
 
 ## Exercise 1.3 - Create a Queue Subscription in Advanced Event Mesh
 
-1. Check whether you can find the queue in the list that you crated in the previous exercise and click on it.
+1. Find the queue in the list that you crated in the previous exercise and click on it.
 
 	![Pic 8](./images/ex1-8.png)  
 
-2. Switch to tab **"Subscriptions"**.
-
-3. Click on **"+ Subscription"**.
+2. Switch to the **"Subscriptions"** tab and click on **"+ Subscription"**.
 
 	![Pic 9](./images/ex1-9.png)  
 
-4. Enter following topic: **userXXX/businesspartner/change**  (replace **XXX** with your assigned user number).
+3. Enter following topic: **userXXX/businesspartner/change**  (replace **XXX** with your assigned user number).
 
-5. Click on **"Create"**.
+4. Click on **"Create"**.
 
 	![Pic 11](./images/ex1-10.png)  
 
-6. Check on whether your queue subscription got created.
+5. Check on whether your queue subscription got created.
 
 	![Pic 12](./images/ex1-11.png)  
 
