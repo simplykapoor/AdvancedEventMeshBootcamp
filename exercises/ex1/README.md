@@ -1,6 +1,7 @@
-## Exercise 1.1 - Log into Advanced Event Mesh and explore it
-
+# Exercise 1 - Explore SAP Integration Suite, advanced event mesh
 After completing these steps you will familiarize yourself with AEM.
+
+## Exercise 1.1 - Log into Advanced Event Mesh and explore it
 
 1. Log into Advanced Event Mesh
 
