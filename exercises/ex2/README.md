@@ -32,7 +32,7 @@ Before we start building our integration flow, we will "provision" a simple HTTP
 
    ![](./images/ex2-3.png)
 
-## Exercise 2.3 - Copy & Configure Integration Flow
+## Exercise 2.3 - Copy & Configure the Subscriber Integration Flow
 
 1. Navigate to **Design > Integrations and APIs**.
 
@@ -44,7 +44,7 @@ Before we start building our integration flow, we will "provision" a simple HTTP
 
    ![](./images/ex2-5.png)
 
-4. Change the name to AEM_to_REST_EventMediation_User**XXX** and replace **XXX** with your assigned user number. Press the **"Select"** button to select the package.
+4. Change the name to **AEM_to_REST_EventMediation_UserXXX** and replace **XXX** with your assigned user number. Press the **"Select"** button to select the package.
 
    ![](./images/ex2-6.png)
 
@@ -59,14 +59,14 @@ Before we start building our integration flow, we will "provision" a simple HTTP
 7. Press **Navigate** to go directly to the copied package.
 <br>![](./images/ex2-9.png)
 
-8. Click on the copied integration flow in your package to open it.
+8. Click on the copied integration flow to open it.
    ![](./images/ex2-10.png)
 
 9. The integration flow will subscribe to your queue and performs a call back to the event publisher to enrich with more data. The result is sent to the HTTP reciever endpoint that you created in Exercise 2.1. Press **Configure** to set the required properties.
 
     ![](./images/ex2-11.png)
 
-10. Provide the name of your queue created in Exercise 1: User_**XXX** (replace **XXX** with your assigned user number).
+10. Provide the name of your AEM queue that you created in Exercise 1: **User_XXX** (replace **XXX** with your assigned user number).
 
     ![](./images/ex2-12.png)
 
@@ -87,17 +87,21 @@ Before we start building our integration flow, we will "provision" a simple HTTP
     ![](./images/ex2-16.png)
 
 
-## 2.4. Monitor Messages
-18. Navigate to "**Monitor-> Integrations and API**". Open the **"Manage Integration Content"** tile.
-<br>![](./images/ex2-17.png)
+## Exercise 2.4. Monitor Consumed Messages
+1. Navigate to "**Monitor-> Integrations and APIs**". Open the **"Manage Integration Content"** tile.
 
-19. Search for your integration flow. It should be in **"Started"** status. Press **"Monitor Message Processing"** to view the processed Messages.
-<br>![](./images/ex2-18.png)
+    ![](./images/ex2-17.png)
 
-20. You should see at least one Messages in the list with Status **"Completed"**.
-<br>![](./images/ex2-19.png)
+2. Search for your integration flow. It should be in **"Started"** status. Press **"Monitor Message Processing"** to view the processed Messages.
 
-21. Open the webhook site created in exercise 2.1. Here you should the messages sent from Cloud Integration. Notice the format and structure was slightly changed by the integrtation flow mapping.
-<br>![](./images/ex2-20.png)
+    ![](./images/ex2-18.png)
+
+3. You should see at least one Messages in the list with Status **"Completed"**.
+
+   ![](./images/ex2-19.png)
+
+4. Open the webhook site created in Exercise 2.1. Here you should the messages sent from Cloud Integration. Notice the enriched payload by the integration flow callback to the event publisher.
+
+   ![](./images/ex2-20.png)
 
 Please continue with [Exercise 3](../ex3/README.md)
