@@ -65,7 +65,6 @@ SAP Integration Suite, advanced event mesh
 
 - [Exercise 3 - Incremental growth: RAP based S4 events -> AEM -> web application as additional consumer](exercises/ex3/)
 
-  - [Exercise 3.0 - Scenario Introduction](exercises/ex3#exercise-30-scenario-introduction)
   - [Exercise 3.1 - Create new queue for RAP based events](exercises/ex3#exercise-31-create-new-queue-for-rap-based-events)
   - [Exercise 3.2 - Configure RAP based events](exercises/ex3#exercise-32-rap-based-events)
   - [Exercise 3.3 - Configure web application as subscriber](exercises/ex3#exercise-33-configure-web-application)
