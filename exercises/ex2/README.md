@@ -35,7 +35,7 @@ After completing these steps you will have created a queue in Advanced Event Mes
 
    ![](./images/ex3-3-5.png)  
 
-10. Enter following topic: **s4/t41/400/ce/groupXX/BusinessPartner/Changed/v1** (replace **XX** with your assigned user number). 
+10. Enter following topic: **"s4/t41/400/ce/groupXX/BusinessPartner/Changed/v1"** (replace **XX** with your assigned user number). 
 
    ![](assets/20250818_232811_image.png)
    
