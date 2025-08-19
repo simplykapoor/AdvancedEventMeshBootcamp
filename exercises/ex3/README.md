@@ -39,53 +39,62 @@ The publish-subscribe pattern decouples the sending and receiving applications. 
 1. Log into **WTS**
 
    Link: https://class.learning.sap.com/my.policy
-      <br>System : **SY-S42023FPS2BGACC-WS001**
-      <br>Username : **WS-XXX** where **XXX** is your assigned user number
-      <br>Password: provided by the moderator
+   <br>System : **SY-S42023FPS2BGACC-WS001**
+   <br>Username : **WS-XXX** where **XXX** is your assigned user number
+   <br>Password: provided by the moderator
+   
+   **Note:** In case you get the error that **"Your session could not be established."**, open a new session
 
-      ![](assets/20250818_234051_image.png)
+   ![](assets/20250818_233959_image.png)
+   <br><br>![](assets/20250818_234051_image.png)
 
-2. After successfull login
+3. After successfull login
 
    ![](assets/20250818_235320_image.png)
    
-3. Search for SAP HANA studio and open the version 2.3.78.
+4. Search for **SAP HANA Studio** and open the version **2.3.78**.
 
-      ![](assets/20250818_235357_image.png)
-   5. Verify if workspace name is “AEM##” where ## is your group number. Click on Launch.
-      **Note: ** **In the screenshots, we are using 01 group as example.**
+   ![](assets/20250818_235357_image.png)
 
-      ![](assets/20250818_235456_image.png)
+5. Verify if workspace name is **“AEMXX”** where **XX** is your assigned user number. Click on Launch.
+   **Note:** In the screenshots, we are using 01 group as example.
 
-      If the below pop-up appears, select “Ask me later”
+   ![](assets/20250818_235456_image.png)
 
-      ![](assets/20250818_235538_image.png)
-   6. To open the imported project, double click on the project on left side and enter the password: Welcome1 and click on “OK”.
+   If the below pop-up appears, select **“Ask me later”**
 
-      ![](assets/20250818_235606_image.png)
-   7. Expand “Favorite Packages”.
+   ![](assets/20250818_235538_image.png)
 
-      ![](assets/20250818_235639_image.png)
-   8. The package of RAP Objects imported (Z_RAP_AEM_WORKSHOP) can be seen. Expand it.
+6. To open the imported project, double click on the project on left side and enter the password: **Welcome1** and click on “OK”.
 
-      ![](assets/20250818_235700_image.png)
-   9. Expand “Business Services”.
+   ![](assets/20250818_235606_image.png)
 
-      ![](assets/20250818_235721_image.png)
-   10. Expand “Event Bindings”.  
-       Note: You can close the last two tabs for better view.
+7. Expand **“Favorite Packages”**.
 
-   ![](assets/20250818_235746_image.png)
+   ![](assets/20250818_235639_image.png)
 
-   11. Double click on the event binding Z_AEM_BP_CHANGED_GROUP## (where ## is your group number).
+8. The package of RAP Objects imported (**Z_RAP_AEM_WORKSHOP**) can be seen. Expand it.
 
-   **Example is from group01** :
+   ![](assets/20250818_235700_image.png)
 
-   ![](assets/20250819_001130_image.png)
+9. Expand **“Business Services”**.
 
-   12. Click on Save and Activate the object.
-       Use the activation button ![](assets/20250819_001428_image.png) from the tool bar
-4. ###### **Trigger the RAP event by changing an existing partner**
+   ![](assets/20250818_235721_image.png)
+
+10. Expand **“Event Bindings”**.
+    <br>**Note:** You can close the last two tabs for better view.
+
+    ![](assets/20250818_235746_image.png)
+
+11. Double click on the event binding **Z_AEM_BP_CHANGED_GROUPXX** (where **XX** is your group number).
+    <br>**Example is for Group/User 01** :
+
+    ![](assets/20250819_001130_image.png)
+
+12. Click on Save and Activate the object.
+    Use the activation button ![](assets/20250819_001428_image.png) from the tool bar
+
+5. ###### **Trigger the RAP event by changing an existing partner**
 
 
    1. **Access T41** : Open SAP GUI from WTS link for WTS: https://class.learning.sap.com/my.policy
@@ -149,7 +158,7 @@ The publish-subscribe pattern decouples the sending and receiving applications. 
    15. You can see all messages including the payloads
 
        ![](assets/20250819_002635_image.png)
-5. ###### Check the event which has reached Advanced Event Mesh
+6. ###### Check the event which has reached Advanced Event Mesh
 
 
    1. Go back to tab in your browser of AEM and click on **"Cluster Manager"** on the left.
