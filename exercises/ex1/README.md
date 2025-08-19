@@ -4,9 +4,9 @@ After completing these steps you will have familiarized yourself with AEM.
 
 1. Log into Advanced Event Mesh
 
-Link: https://eu10.console.pubsub.em.services.cloud.sap/login?tenant-id=47ad3afc-3d8a-4dca-85bb-6cce8ebae9e3
+	Link: https://eu10.console.pubsub.em.services.cloud.sap/login?tenant-id=47ad3afc-3d8a-4dca-85bb-6cce8ebae9e3
 
-User / Password: provided by your moderator or in main readme.md
+	Usermame/Password: provided by the moderator
 
 2. Explore Advanced Event Mesh  
 
