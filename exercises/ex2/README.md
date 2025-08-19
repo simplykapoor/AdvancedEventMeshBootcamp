@@ -19,22 +19,33 @@ After completing these steps you will have created a queue in Advanced Event Mes
 
    ![](./images/ex3-3-2.png)
    
-5. Give the Name in the Format
-   RAP*AEM*## (where ## is Your Group Number)<img width="755" height="320" alt="image" src="https://github.com/user-attachments/assets/da37e7e3-fb5f-4878-ae61-9dd0fa289560" />
+5. In the pop up enter the queue name: **User_XXX_WebApp** (replace **XXX** with your assigned user number) and click **"Create"**
 
-	
-   ![](assets/20250818_232519_image.png)
-7. Click on "Create" ->Then click on "Apply"
+   ![](./images/ex3-3-3.png) 
 
-   ![](assets/20250818_232643_image.png)
-8. Click on the Queue that is created - Select the Subscription Tab
+6. On the next screen keep all the default settings and click **"Apply"**
 
-   ![](assets/20250818_232722_image.png)
-9. Enter the Topic name with the below format(Replace ## with Group name)
-   s4/t41/400/ce/group##/BusinessPartner/Changed/v1
+	![](./images/ex3-3-1.png)       
+
+7. Find the queue in the list that you crated in the previous step and click on it. 
+
+   ![](./images/ex3-3-4.png)  
+   
+8. Switch to the **"Subscriptions"** tab and click on **"+ Subscription"**.
+
+   ![](./images/ex3-3-5.png)  
+
+10. Enter following topic: **s4/t41/400/ce/groupXX/BusinessPartner/Changed/v1** (replace **XX** with your assigned user number). 
 
    ![](assets/20250818_232811_image.png)
-10. Click on "Create"
+   
+11. Click on **"Create"**.
+
+	![Pic 11](./images/ex1-10.png)  
+
+12. Check on whether your queue subscription got created.
+
+	![Pic 12](./images/ex1-11.png)  
     
 ## Exercise 2.1 - Setup REST Endpoint
 
