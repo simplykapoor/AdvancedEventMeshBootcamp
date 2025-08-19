@@ -1,7 +1,7 @@
 ## Exercise 2 - Learn Publish-Subscribe pattern using S/4 HANA, AEM and Cloud Integration
 In this exercise, we will explore an end-to-end publish-subscribe pattern. We will publish a Business Partner Change event from S/4Hana to an AEM topic using RAP-based events. The event will then be sent from the topic to two queues, which act as topic subscribers. Finally, two independent subscribers will receive the event by listening to their respective queues.
 
-## Exercise 2.1 - Create new queue in Advanced Event Mesh for second subscriber
+## Exercise 2.1 - Create new Queue in Advanced Event Mesh for second subscriber
 After completing these steps you will have created a queue in Advanced Event Mesh.
 
 1. Go back to the original tab in your browser of AEM and click on **"Cluster Manager"** on the left.
@@ -35,17 +35,11 @@ After completing these steps you will have created a queue in Advanced Event Mes
 
    ![](./images/ex3-3-5.png)  
 
-10. Enter following topic: **"s4/t41/400/ce/groupXX/BusinessPartner/Changed/v1"** (replace **XX** with your assigned user number). 
+9. Enter following topic: **"s4/t41/400/ce/groupXX/BusinessPartner/Changed/v1"** (replace **XX** with your assigned user number). Click on **"Create"**.
 
-   ![](assets/20250818_232811_image.png)
-   
-11. Click on **"Create"**.
+	![](./images/ex3-3-6.png)
 
-	![Pic 11](./images/ex1-10.png)  
 
-12. Check on whether your queue subscription got created.
-
-	![Pic 12](./images/ex1-11.png)  
     
 ## Exercise 2.1 - Setup REST Endpoint
 
