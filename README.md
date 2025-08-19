@@ -26,8 +26,8 @@ SAP Integration Suite, advanced event mesh
 - provides sophisticated authentication and security features like Kerberos, OAuth or TLS
 - offers fine-grained filtering options
 - allows for real-time monitoring, capacity insights and distributed tracing
-- provides support for all relevant protocols like JMS, REST, AMQP and MQTT, plus SMF.
-- allows to start small and upgrade to bigger T-shirt sizes when your business grows
+- provides support for all relevant protocols like JMS, REST, AMQP and MQTT, plus SMF
+- allows to start small and upgrade to bigger tier metric when your business grows
 - provides an outstanding performance up to billions of events per day
 
 SAP Integration Suite, advanced event mesh features touched, some just shortly, some in more detail, include:
@@ -40,24 +40,11 @@ SAP Integration Suite, advanced event mesh features touched, some just shortly, 
 
 ## Requirements
 
-- Understanding the basics of event-driven architectures, namely events, queues, topics, event subscriptions ...
-- You would be able to execute most of the exercises without prior experience by just following the descriptions. For taking value out of the chance to explore Advanced Event Mesh some experience with event-driven architectures is recommended.
-
-## User Data and Password
-
-In order to log into Advanced Event Mesh, you can use the below email address with XX replaced with your user number.
-
-Users:
-AC191299U01 - AC191299U30 (AC191299UXX)
-
-Email:
-AC191299U01@sapexperienceacademy.com - AC191299U30@sapexperienceacademy.com
-
-Pw: Ob8LC0OWRf1!
-
-Please make sure to use incognito / private mode
-
-Use this [Tenant](https://eu10.console.pubsub.em.services.cloud.sap/login?tenant-id=47ad3afc-3d8a-4dca-85bb-6cce8ebae9e3) to do the exercises.
+- There are no prior requirements to this exercise. You can perform this even if you do not have any experience with integration platform from SAP. However, you will be able to derive increased value from this session if you have some knowledge on the following:
+-
+- What 'SAP Integration Suite' is all about and how it helps with enterprise-wide integration needs.
+- Basic understanding of 'SAP Integration Suite, advanced event mesh'.
+- Understanding the basics of event-driven architectures, namely events, queues, topics, event subscriptions.
 
 ## Exercises
 
@@ -79,6 +66,7 @@ SAP Integration Suite, advanced event mesh
 
 - [Exercise 3 - Incremental growth: RAP based S4 events -> AEM -> web application as additional consumer](exercises/ex3/)
 
+  - [Exercise 3.0 - Scenario Introduction](exercises/ex3#exercise-30-scenario-introduction)
   - [Exercise 3.1 - Create new queue for RAP based events](exercises/ex3#exercise-31-create-new-queue-for-rap-based-events)
   - [Exercise 3.2 - Configure RAP based events](exercises/ex3#exercise-32-rap-based-events)
   - [Exercise 3.3 - Configure web application as subscriber](exercises/ex3#exercise-33-configure-web-application)
