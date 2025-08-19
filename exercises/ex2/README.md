@@ -42,7 +42,68 @@ After completing these steps you will have created a queue in Advanced Event Mes
 10. Simlarily subscribe to the same topic **"s4/t41/400/ce/groupXX/BusinessPartner/Changed/v1"** in the first queue **"User_XXX"** (replace **XXX** with your assigned user number) that you created in Exercise 1.2
 
 	![](./images/ex3-3-7.png)
-    
+
+## Exercise 2.2 - Configure Publishing of S/4 HANA Business Partner Change event to AEM using RAP based events
+
+1. Log into **WTS**
+
+   Link: https://class.learning.sap.com/my.policy
+   <br>System : **SY-S42023FPS2BGACC-WS001**
+   <br>Username : **WS-XXX** where **XXX** is your assigned user number
+   <br>Password: provided by the moderator
+   
+   **Note:** In case you get the error that **"Your session could not be established."**, open a new session
+
+   ![](assets/20250818_233959_image.png)
+   <br><br>![](assets/20250818_234051_image.png)
+
+3. After successfull login
+
+   ![](assets/20250818_235320_image.png)
+   
+4. Search for **SAP HANA Studio** and open the version **2.3.78**.
+
+   ![](assets/20250818_235357_image.png)
+
+5. Verify if workspace name is **“AEMXX”** where **XX** is your assigned user number. Click on Launch.
+   **Note:** In the screenshots, we are using 01 group as example.
+
+   ![](assets/20250818_235456_image.png)
+
+   If the below pop-up appears, select **“Ask me later”**
+
+   ![](assets/20250818_235538_image.png)
+
+6. To open the imported project, double click on the project on left side and enter the password: **Welcome1** and click on “OK”.
+
+   ![](assets/20250818_235606_image.png)
+
+7. Expand **“Favorite Packages”**.
+
+   ![](assets/20250818_235639_image.png)
+
+8. The package of RAP Objects imported (**Z_RAP_AEM_WORKSHOP**) can be seen. Expand it.
+
+   ![](assets/20250818_235700_image.png)
+
+9. Expand **“Business Services”**.
+
+   ![](assets/20250818_235721_image.png)
+
+10. Expand **“Event Bindings”**.
+    <br>**Note:** You can close the last two tabs for better view.
+
+    ![](assets/20250818_235746_image.png)
+
+11. Double click on the event binding **Z_AEM_BP_CHANGED_GROUPXX** (where **XX** is your group number).
+    <br>**Example is for Group/User 01** :
+
+    ![](assets/20250819_001130_image.png)
+
+12. Click on **Save** and **Activate** the object.
+    <br>Use the activation button ![](assets/20250819_001428_image.png) from the tool bar
+
+## Exercise 2.3 - Publish the RAP based S/4 HANA Business Partner Change event by changing an existing business partner
 ## Exercise 2.1 - Setup REST Endpoint
 
 Before we start building our integration flow, we will "provision" a simple HTTP endpoint where we will send the message.
