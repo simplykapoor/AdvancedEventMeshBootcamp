@@ -55,6 +55,14 @@ SAP Integration Suite, advanced event mesh
   - [Exercise 1.2 - Create a Queue Subscription in Advanced Event Mesh ](exercises/ex1#exercise-12---create-a-queue-in-advanced-event-mesh)
   - [Exercise 1.3 - Create a Subscription in Advanced Event Mesh](exercises/ex1#exercise-13---create-a-queue-subscription-in-advanced-event-mesh)
   - [Exercise 1.4 - Send an event from the Try Me! tool to your Topic](exercises/ex1#exercise-14---send-an-event-from-the-try-me-tool-to-your-topic)
+ 
+- [Exercise 2 - Learn Publish-Subscribe pattern using S/4 HANA, AEM and Cloud Integration](exercises/ex2/)
+  - [Exercise 2.1 - Configure Publishing of S/4 HANA Business Partner Change event to AEM using RAP based events](exercises/ex3#exercise-32-rap-based-events)
+  - [Exercise 2.1 - Create new queue for second subscriber](exercises/ex3#exercise-31-create-new-queue-for-rap-based-events)
+  - [Exercise 2.1 - Setup REST Endpoint](exercises/ex2#21-setup-rest-endpoint)
+  - [Exercise 2.2 - Create Integration Package](exercises/ex2#22-create-integration-package)
+  - [Exercise 2.2 - Copy & Configure Integration Flow](exercises/ex2#23-copy--configure-integration-flow)
+  - [Exercise 2.2 - Monitor Messages](exercises/ex2#24-monitor-messages)
 
 - [Exercise 2 - Use Cloud Integration for event mediation](exercises/ex2/)
 
