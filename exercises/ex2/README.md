@@ -62,7 +62,7 @@ Before we start building our integration flow, we will "provision" a simple HTTP
 8. Click on the copied integration flow to open it.
    ![](./images/ex2-10.png)
 
-9. The integration flow will subscribe to your queue and performs a call back to the event publisher to enrich with more data. The result is sent to the HTTP reciever endpoint that you created in Exercise 2.1. Press **Configure** to set the required properties.
+9. The integration flow will subscribe to your queue and performs a call back to the event publisher to enrich with more data (Mock API Call). The result is sent to the HTTP reciever endpoint that you created in Exercise 2.1. Press **Configure** to set the required properties.
 
     ![](./images/ex2-11.png)
 
