@@ -65,7 +65,7 @@ SAP Integration Suite, advanced event mesh
     - [Exercise 2.3.3 - Copy, Configure & Deply the Integration Flow](exercises/ex2#exercise-233---copy-configure--deply-the-integration-flow)
   - [Exercise 2.4 - Configure Standalone Web Application as Second Subscriber](exercises/ex3#exercise-33-configure-web-application)  
   - [Exercise 2.5 - Run the scenario by publishing the RAP-based S/4 HANA Business Partner Change event, which involves modifying an existing business partner](exercises/ex3#exercise-32-rap-based-events)
-    - [Exercise 2.5.1 - Monitor Messages](exercises/ex2#24-monitor-messages)
+    - [Exercise 2.5.1 - Monitor Subscribed Messages](exercises/ex2#24-monitor-messages)
 
 
 - [Exercise 2 - Use Cloud Integration for event mediation](exercises/ex2/)
