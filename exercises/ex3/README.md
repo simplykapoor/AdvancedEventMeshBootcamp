@@ -197,22 +197,3 @@ In this exercise you will conifugre the Business Partner Web Application. On thi
 3. As system published the event to a topic, all queues subscribed have received the event. This means also the integration flow in exercise 2 is executed again and you should see an corresponding entry in the webhook site.
 
 **Congratulations, you completed all exercises!**
-
-### Exercise 2.3.4. Monitor Consumed Messages
-1. Navigate to "**Monitor-> Integrations and APIs**". Open the **"Manage Integration Content"** tile.
-
-    ![](./images/ex2-17.png)
-
-2. Search for your integration flow. It should be in **"Started"** status. Press **"Monitor Message Processing"** to view the processed Messages.
-
-    ![](./images/ex2-18.png)
-
-3. You should see at least one Messages in the list with Status **"Completed"**.
-
-   ![](./images/ex2-19.png)
-
-4. Open the webhook site created in Exercise 2.1. Here you should the messages sent from Cloud Integration. Notice the enriched payload by the integration flow callback to the event publisher.
-
-   ![](./images/ex2-20.png)
-
-Please continue with [Exercise 3](../ex3/README.md)
