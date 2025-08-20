@@ -104,7 +104,7 @@ After completing these steps you will have created a queue in Advanced Event Mes
     <br>Use the activation button ![](assets/20250819_001428_image.png) from the tool bar
 
 ## Exercise 2.3 - Configure First Subscriber using Cloud Integration capability of SAP Integration Suite
-In this exercise, we will configure the first subscriber as an integration flow that connects to the AEM queue, receives notification events, enriches the event payload by making a callback to the event publisher, and then forwards the result to a sample REST endpoint.
+In this exercise, an Integration Flow is added as a subscriber via the Advanced Event Mesh adapter using the Solace Messaging Format (SMF). Integration flows can be used to mediate events, for example, to perform message transformation or protocol conversion steps.
 
 ### Exercise 2.3.1 - Setup REST Endpoint
 
@@ -167,7 +167,7 @@ Before we start building our integration flow, we will "provision" a simple HTTP
 8. Click on the copied integration flow to open it.
    ![](./images/ex2-10.png)
 
-9. The integration flow will subscribe to your queue and performs a call back to the event publisher to enrich with more data (Mock API Call). The result is sent to the HTTP reciever endpoint that you created in Exercise 2.1. Press **Configure** to set the required properties.
+9. The integration flow will subscribe to your queue and performs a simple transformation from JSON to XML format. The result is sent to the HTTP reciever endpoint that you created in Exercise 2.1. Press **Configure** to set the required properties.
 
     ![](./images/ex2-11.png)
 
