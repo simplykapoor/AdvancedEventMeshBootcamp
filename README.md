@@ -64,23 +64,8 @@ SAP Integration Suite, advanced event mesh
     - [Exercise 2.3.2 - Create Integration Package in Cloud Integration capability of SAP Integration Suite](exercises/ex2#exercise-232---create-integration-package-in-cloud-integration-capability-of-sap-integration-suite)
     - [Exercise 2.3.3 - Copy, Configure & Deply the Integration Flow](exercises/ex2#exercise-233---copy-configure--deply-the-integration-flow)
   - [Exercise 2.4 - Configure Standalone Web Application as Second Subscriber](exercises/ex2#exercise-24-configure-standalone-web-application-as-second-subscriber)  
-  - [Exercise 2.5 - Run the scenario by publishing the RAP-based S/4 HANA Business Partner Change event, which involves modifying an existing business partner](exercises/ex3#exercise-32-rap-based-events)
+  - [Exercise 2.5 - Run the scenario by publishing the RAP-based S/4 HANA Business Partner Change event, which involves modifying an existing business partner](exercises/ex2#exercise-25-run-the-scenario-by-publishing-the-rap-based-s4-hana-business-partner-change-event-which-involves-modifying-an-existing-business-partner)
     - [Exercise 2.5.1 - Monitor Subscribed Messages](exercises/ex2#24-monitor-messages)
-
-
-- [Exercise 2 - Use Cloud Integration for event mediation](exercises/ex2/)
-
-  - [Exercise 2.1 - Setup REST Endpoint](exercises/ex2#21-setup-rest-endpoint)
-  - [Exercise 2.2 - Create Integration Package ](exercises/ex2#22-create-integration-package)
-  - [Exercise 2.2 - Copy & Configure Integration Flow](exercises/ex2#23-copy--configure-integration-flow)
-  - [Exercise 2.2 - Monitor Messages](exercises/ex2#24-monitor-messages)
-
-- [Exercise 3 - Incremental growth: RAP based S4 events -> AEM -> web application as additional consumer](exercises/ex3/)
-
-  - [Exercise 3.1 - Create new queue for RAP based events](exercises/ex3#exercise-31-create-new-queue-for-rap-based-events)
-  - [Exercise 3.2 - Configure RAP based events](exercises/ex3#exercise-32-rap-based-events)
-  - [Exercise 3.3 - Configure web application as subscriber](exercises/ex3#exercise-33-configure-web-application)
-  - [Exercise 3.4 - Publish RAP based event again](exercises/ex3#exercise-34-publish-rap-based-event-again)
 
 ## Further Read
 
