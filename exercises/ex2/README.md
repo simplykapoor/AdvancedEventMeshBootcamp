@@ -302,7 +302,7 @@ As S/4 Hana system published an event to a topic, all queues subscribed to that 
 
    ![](./images/ex2-19.png)
 
-4. Open the webhook site created in Exercise 2.1. Here you should the messages sent from Cloud Integration. Notice the enriched payload by the integration flow callback to the event publisher.
+4. Open the webhook site created in Exercise 2.1. Here you should the messages sent from Cloud Integration. Notice the format and structure was slightly changed by the integrtation flow mapping.
 
    ![](./images/ex2-20.png)
 
