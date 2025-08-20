@@ -286,3 +286,28 @@ In this exercise we will publish a Business Partner Change event in S/4Hana that
 15. You can see all messages including the payloads
 
     ![](assets/20250819_002635_image.png)
+
+### Exercise 2.5.1. Monitor Consumed Messages
+As S/4 Hana system published an event to a topic, all queues subscribed to that topic have received the event. This means the integration flow configured in Exercise 2.3 is executed and also the standalone web application should have received the event.
+
+1. Navigate to "**Monitor-> Integrations and APIs**". Open the **"Manage Integration Content"** tile.
+
+    ![](./images/ex2-17.png)
+
+2. Search for your integration flow. It should be in **"Started"** status. Press **"Monitor Message Processing"** to view the processed Messages.
+
+    ![](./images/ex2-18.png)
+
+3. You should see at least one Messages in the list with Status **"Completed"**.
+
+   ![](./images/ex2-19.png)
+
+4. Open the webhook site created in Exercise 2.1. Here you should the messages sent from Cloud Integration. Notice the enriched payload by the integration flow callback to the event publisher.
+
+   ![](./images/ex2-20.png)
+
+5. You should also see your entry in the standalone web application. Be aware that if you send a business partner with the same ID, an update of the existing entry will be triggered instead of creating a new entry.
+
+   ![Pic](./images/ex3-8.png)
+   
+**Congratulations, you have completed all the exercises!**
