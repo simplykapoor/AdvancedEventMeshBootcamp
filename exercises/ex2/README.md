@@ -193,7 +193,6 @@ Before we start building our integration flow, we will "provision" a simple HTTP
 
 
 ## Exercise 2.4: Configure Standalone Web Application as Second Subscriber
-
 In this exercise you will configure the Business Partner Web Application. On this Website you will subscribe to the queue created in Exercise 2.1 via your web browser. Every business partner change published to your queue will be shown on the web application in real-time.
 
 1. Open the [Business Partner Web Applicaiton](https://sap-cpisuite-europe-01n-cpisuite-europe-01-aem-demo-client.cfapps.eu10.hana.ondemand.com/app/index.html#/businessPartner).
@@ -207,3 +206,83 @@ In this exercise you will configure the Business Partner Web Application. On thi
 4. The Pop-Up should close and status shows **"Connected"**. Now your browser is directly subscribed to the queue and ready to receive business partner events.
 
    ![Pic](./images/ex3-6.png)
+
+## Exercise 2.5: Run the scenario by publishing the RAP-based S/4 HANA Business Partner Change event, which involves modifying an existing business partner
+In this exercise we will publish a Business Partner Change event in S/4Hana that will trigger both the subscribers automatically.
+
+1. **Access T41** : Open SAP GUI from WTS
+   <br>Link: https://class.learning.sap.com/my.policy
+   <br>System : **SY-S42023FPS2BGACC-WS001**
+   <br>Username : **WS-XXX** where **XXX** is your assigned user number
+   <br>Password: provided by the moderator
+   
+   **Note:** In case you get the error that **"Your session could not be established."**, open a new session
+
+   ![](assets/20250818_233959_image.png)
+   <br><br>![](assets/20250818_234051_image.png)
+
+2. Open SAP Logon and click on T41
+
+      ![](assets/20250818_234756_image.png)
+
+3. Give User: **S4F17-XX** where **XX** is the assigned user number. Example -> S4F17-01
+   <br>Password: **Welcome1**
+
+   Click **"Enter"**
+
+   ![](assets/20250818_234838_image.png)
+
+4. Accept the system messages
+
+   ![](assets/20250818_234850_image.png)
+
+5. Training Desktop will be open as given below:
+
+   ![](assets/20250818_234917_image.png)
+
+6. Enter Tcode: /nbp and click on enter button.
+
+   ![](assets/20250819_002227_image.png)
+
+7. Enter Business Partner number **S610-AXX** where **XX** is your assigned user number
+   Click on "Start"
+
+   ![](assets/20250819_002301_image.png)
+
+8. Choose the Business Partner by double clicking.
+
+   **Note: In the screenshots, we are using 01 group as an example**
+
+   ![](assets/20250819_002331_image.png)
+
+9. Click on **Change** button as highlighted below.
+
+   ![](assets/20250819_002352_image.png)
+
+10. Change details of the Business Partner such as name.
+
+    ![](assets/20250819_002439_image.png)
+
+11. Click on **"Save"**
+
+    ![](assets/20250819_002458_image.png)
+
+12. Enter **/n/IWXBE/EVENT_MONITOR** t-code to view the monitoring.
+
+    ![](assets/20250819_002523_image.png)
+
+13. Click on **AEM_BASIC_RAP**
+
+    ![](assets/20250819_002542_image.png)
+
+14. Click on outbound events. Check the event triggered for your group number by the topic name:
+
+    **s4/t41/400/ce/groupXX/BusinessPartner/Changed/v1** where **XX** is your assigned user number
+
+    **In our example for group01 - "s4/t41/400/ce/group01/BusinessPartner/Changed/v1"**
+
+    ![](assets/20250819_002612_image.png)
+
+15. You can see all messages including the payloads
+
+    ![](assets/20250819_002635_image.png)
