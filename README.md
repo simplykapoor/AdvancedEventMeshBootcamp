@@ -63,7 +63,7 @@ SAP Integration Suite, advanced event mesh
     - [Exercise 2.3.1 - Setup REST Endpoint](exercises/ex2#exercise-231---setup-rest-endpoint)
     - [Exercise 2.3.2 - Create Integration Package in Cloud Integration capability of SAP Integration Suite](exercises/ex2#exercise-232---create-integration-package-in-cloud-integration-capability-of-sap-integration-suite)
     - [Exercise 2.3.3 - Copy, Configure & Deply the Integration Flow](exercises/ex2#exercise-233---copy-configure--deply-the-integration-flow)
-  - [Exercise 2.4 - Configure Standalone Web Application as Second Subscriber](exercises/ex3#exercise-33-configure-web-application)  
+  - [Exercise 2.4 - Configure Standalone Web Application as Second Subscriber](exercises/ex2#exercise-24-configure-standalone-web-application-as-second-subscriber)  
   - [Exercise 2.5 - Run the scenario by publishing the RAP-based S/4 HANA Business Partner Change event, which involves modifying an existing business partner](exercises/ex3#exercise-32-rap-based-events)
     - [Exercise 2.5.1 - Monitor Subscribed Messages](exercises/ex2#24-monitor-messages)
 
