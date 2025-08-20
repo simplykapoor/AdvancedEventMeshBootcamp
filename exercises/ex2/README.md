@@ -192,21 +192,18 @@ Before we start building our integration flow, we will "provision" a simple HTTP
     ![](./images/ex2-16.png)
 
 
-### Exercise 2.3.4. Monitor Consumed Messages
-1. Navigate to "**Monitor-> Integrations and APIs**". Open the **"Manage Integration Content"** tile.
+## Exercise 2.4: Configure Standalone Web Application as Second Subscriber
 
-    ![](./images/ex2-17.png)
+In this exercise you will configure the Business Partner Web Application. On this Website you will subscribe to the queue created in Exercise 2.1 via your web browser. Every business partner change published to your queue will be shown on the web application in real-time.
 
-2. Search for your integration flow. It should be in **"Started"** status. Press **"Monitor Message Processing"** to view the processed Messages.
+1. Open the [Business Partner Web Applicaiton](https://sap-cpisuite-europe-01n-cpisuite-europe-01-aem-demo-client.cfapps.eu10.hana.ondemand.com/app/index.html#/businessPartner).
+2. Provide the same connection details as captured in [Exercise 1.4 - Send an event from the Try Me! Tool to your Topic](../ex1#exercise-14---send-an-event-from-the-try-me-tool-to-your-topic)
+3. Change Subscription Type to **"Queue"** and fill in the queue name created in Exercise 2.1: **User_XXX_WebApp** (replace **XXX** with your assigned user number). Press **"Connect"**.
 
-    ![](./images/ex2-18.png)
+	> **_HINT:_** If your broswer is asking to use a certificate for authentication, press "Do not send certificate".
 
-3. You should see at least one Messages in the list with Status **"Completed"**.
+	![Pic](./images/ex3-5.png)
 
-   ![](./images/ex2-19.png)
+4. The Pop-Up should close and status shows **"Connected"**. Now your browser is directly subscribed to the queue and ready to receive business partner events.
 
-4. Open the webhook site created in Exercise 2.1. Here you should the messages sent from Cloud Integration. Notice the enriched payload by the integration flow callback to the event publisher.
-
-   ![](./images/ex2-20.png)
-
-Please continue with [Exercise 3](../ex3/README.md)
+   ![Pic](./images/ex3-6.png)
