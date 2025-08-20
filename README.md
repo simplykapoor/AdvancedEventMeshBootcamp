@@ -59,10 +59,10 @@ SAP Integration Suite, advanced event mesh
 - [Exercise 2 - Learn Publish-Subscribe pattern using S/4 HANA, AEM and Cloud Integration](exercises/ex2/)
   - [Exercise 2.1 - Create new queue in Advanced Event Mesh for second subscriber](exercises/ex2#exercise-21---create-new-queue-in-advanced-event-mesh-for-second-subscriber)
   - [Exercise 2.2 - Configure Publishing of S/4 HANA Business Partner Change event to AEM using RAP based events](exercises/ex2#exercise-22---configure-publishing-of-s4-hana-business-partner-change-event-to-aem-using-rap-based-events)
-  - [Exercise 2.3 - Setup First Subscriber using Cloud Integration capability of SAP Integration Suite](exercises/ex2#21-setup-rest-endpoint)
+  - [Exercise 2.3 - Configure First Subscriber using Cloud Integration capability of SAP Integration Suite](exercises/ex2#21-setup-rest-endpoint)
     - [Exercise 2.3.1 - Setup REST Endpoint](exercises/ex2#21-setup-rest-endpoint)
-    - [Exercise 2.3.2 - Create Integration Package](exercises/ex2#22-create-integration-package)
-    - [Exercise 2.3.3 - Copy, Configure & Deply Integration Flow](exercises/ex2#23-copy--configure-integration-flow)
+    - [Exercise 2.3.2 - Create Integration Package in Cloud Integration capability of SAP Integration Suite](exercises/ex2#22-create-integration-package)
+    - [Exercise 2.3.3 - Copy, Configure & Deply the Integration Flow](exercises/ex2#23-copy--configure-integration-flow)
     - [Exercise 2.3.4 - Monitor Messages](exercises/ex2#24-monitor-messages)
   - [Exercise 2.4 - Configure Standalone Web Application as Second Subscriber](exercises/ex3#exercise-33-configure-web-application)  
   - [Exercise 2.5 - Run the scenario by publishing the RAP-based S/4 HANA Business Partner Change event, which involves modifying an existing business partner](exercises/ex3#exercise-32-rap-based-events)
@@ -71,7 +71,7 @@ SAP Integration Suite, advanced event mesh
 - [Exercise 2 - Use Cloud Integration for event mediation](exercises/ex2/)
 
   - [Exercise 2.1 - Setup REST Endpoint](exercises/ex2#21-setup-rest-endpoint)
-  - [Exercise 2.2 - Create Integration Package](exercises/ex2#22-create-integration-package)
+  - [Exercise 2.2 - Create Integration Package ](exercises/ex2#22-create-integration-package)
   - [Exercise 2.2 - Copy & Configure Integration Flow](exercises/ex2#23-copy--configure-integration-flow)
   - [Exercise 2.2 - Monitor Messages](exercises/ex2#24-monitor-messages)
 
