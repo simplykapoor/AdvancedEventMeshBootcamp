@@ -103,12 +103,14 @@ After completing these steps you will have created a queue in Advanced Event Mes
 12. Click on **Save** and **Activate** the object.
     <br>Use the activation button ![](assets/20250819_001428_image.png) from the tool bar
 
-## Exercise 2.3 - Publish the RAP based S/4 HANA Business Partner Change event by changing an existing business partner
-## Exercise 2.1 - Setup REST Endpoint
+## Exercise 2.3 - Configure First Subscriber using Cloud Integration capability of SAP Integration Suite
+In this exercise, we will configure the first subscriber as an integration flow that connects to the AEM queue, receives notification events, enriches the event payload by making a callback to the event publisher, and then forwards the result to a sample REST endpoint.
+
+### Exercise 2.3.1 - Setup REST Endpoint
 
 Before we start building our integration flow, we will "provision" a simple HTTP endpoint where we will send the message.
 
-1. ### Webhook.site (HTTP endpoint)
+1. **Webhook.site (HTTP endpoint)**
 
     For simplicity purposes, our REST consumer will be a simple HTTP endpoint that will receive the messages from the queue. We will use a tool called [Webhook.site](https://webhook.site/) to create a temporary endpoint that will receive the messages. When you navigate to the website, you will be presented with a unique URL that you can use to receive the messages. **Take note of the unique URL** as we will use it to configure the REST consumer.
     
@@ -117,7 +119,7 @@ Before we start building our integration flow, we will "provision" a simple HTTP
         <i>webhook.site example</i>
     </p>
 
-## Exercise 2.2 - Create Integration Package in Cloud Integration capability of SAP Integration Suite
+### Exercise 2.3.2 - Create Integration Package in Cloud Integration capability of SAP Integration Suite
 
 1. Open the SAP Integration Suite landing page via this [link](https://cpisuite-europe-03.integrationsuite.cfapps.eu20-001.hana.ondemand.com/shell/home).
 
@@ -135,7 +137,7 @@ Before we start building our integration flow, we will "provision" a simple HTTP
 
    ![](./images/ex2-3.png)
 
-## Exercise 2.3 - Copy & Configure the Subscriber Integration Flow
+### Exercise 2.3.3 - Copy, Configure & Deply the Integration Flow
 
 1. Navigate to **Design > Integrations and APIs**.
 
@@ -190,7 +192,7 @@ Before we start building our integration flow, we will "provision" a simple HTTP
     ![](./images/ex2-16.png)
 
 
-## Exercise 2.4. Monitor Consumed Messages
+### Exercise 2.3.4. Monitor Consumed Messages
 1. Navigate to "**Monitor-> Integrations and APIs**". Open the **"Manage Integration Content"** tile.
 
     ![](./images/ex2-17.png)
